@@ -3,6 +3,8 @@ package com.alper.springdemo.mvc;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 import javax.servlet.http.*;
 
 
@@ -39,4 +41,16 @@ public class HelloWorldController {
 		return "helloworld";
 	}
 
+	@RequestMapping("/processFormVersionThree")
+	public String processFormVersionThree(@RequestParam("studentName") String theName, Model model) {
+		
+		
+		theName = theName.toUpperCase();
+		
+		String result = "Hello from v3" + theName;
+		
+		model.addAttribute("message", result);
+		
+		return "helloworld";
+	}
 }
