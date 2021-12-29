@@ -1,11 +1,11 @@
 # spring-mvc-tutorial
 ## prerequisite
  
-  -Tomcat 8.5
-  -Java 8+
-  -Spring Framework
+ 1. Tomcat 8.5
+ 1. Java 8+
+ 1. Spring Framework
  
 # Includes
-  1.IOC,DI
-  2.Reading HTML from data
-  3.Controller level request mapping
+ 1. IOC,DI
+ 1. Reading HTML from data
+ 1. Controller level request mapping
