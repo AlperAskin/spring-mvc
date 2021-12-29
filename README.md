@@ -1,5 +1,5 @@
 # spring-mvc-tutorial
-#### prerequisite
+#### Prerequisite
  
  1. Tomcat 8.5
  1. Java 8+
