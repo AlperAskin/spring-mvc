@@ -1,9 +1,9 @@
 # spring-mvc-tutorial
  prerequisite
  
-  *Tomcat 8.5
-  *Java 8+
-  *Spring Framework
+  -Tomcat 8.5
+  -Java 8+
+  -Spring Framework
  
  Includes
   1.IOC,DI
